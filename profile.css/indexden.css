@@ -1,39 +1,55 @@
-body {width: 100%;
+body {
+	font-size: 18px;
 }
 
-ul {font-size: 18px;
-	line-height: 25px;
-	text-align: center;
+.container {
+	width: 945px;
+	margin: 0 auto;
+}
+
+ul {
 	display: flex;
 	justify-content: center;
-	max-width: 1440px;
-	padding: 27px;
+	padding: 25px 0 35px;
+	position: relative;
+}
+
+ul:after {
+	content: " ";
+	height: 2px;
+	width: 100%;
+	background-color: #828282;
+	display: block;
+	opacity: 0,5;
+	box-shadow: 0,7 px 5px 2px #828282;
+	position: absolute;
+	bottom: 0;
+}
+
+a {
+	text-decoration: none;
 	color: #828282;
-	border-bottom: 3px solid #828282;
+	text-shadow: 5px 5px 3px #828282;
 }
 
-li {color: #828282;
-	font-weight: 400px;
-	font-family: 'Times New Roman', Times, serif;
-	font-style: normal;
-	margin-left: 28px;
-	border-bottom: none;
+
+li {
+	margin: 0 20px;
+	
 }
 
-.title {font-family: 'Times New Roman', Times, serif;
-	display: flex;
-	font-size: 48px;
-	font-weight: 700px;
-	line-height: 65px;
-	padding-top: 12px;
-	text-align: center;
-	flex-direction: column;
-	max-width: 970px;
-	align-items: center;
-	transform: translate(20%)
+.full-width {
+	width: 100%;
 }
 
-h1 {padding-bottom: 50px;
+h1 {
+	font-size: 47px;
+	line-height: 64px;
+	padding-bottom: 20px;
+}
+
+.hero {
+	padding: 35px 0 100px;
 }
 
 .portfolio {display: flex;
@@ -79,32 +95,38 @@ h1 {padding-bottom: 50px;
 	align-items: center;
 	font-size: 18px;
 	line-height: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	width: 480 px;
 }
 
-.skills {
+.container1 {
+display: flex;
+background-color: green;
+width: 900px;
+margin: 0 auto;
+justify-content: space-between;
+
+}
+
+.parent {
+	height: 40px;
 	display: flex;
-	justify-content: center;
+background-color: blue;
+width: 200px;
+left: 150 px;
+justify-content: center;
 }
 
-.skills-intr {font-weight: 700; font-size: 34px;
-	line-height: 46px; text-align: center;
-	transform: translate(80%);
+.super {
+height: 40px;
+background-color: aquamarine;
+width: 200px;
 }
 
-.skills-intr-small {
-	font-weight: 400px;
-	font-size: 18px;
-	line-height: 25px;
-	text-align: center;
-}
 
-.container {display: flex;
-	justify-content: center;
-margin-top: 10%;
-transform: translate(-30%); 
-font-weight: 700px;
-	font-size: 14px;
-}
-
+.item {
+height: 20px;
+background-color: red;
+width: 150px;
+margin-right: auto;
+margin-top: 20px;}
