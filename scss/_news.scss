@@ -1,0 +1,220 @@
+
+.news {
+	width: 100%;
+	margin-top: 150px;
+	padding-top: 113px;
+	background-image: url("../images/newsBackground.png"),
+	 url("../images/newsCover.png");
+	 background-size: cover;
+	 padding-bottom: 170px;
+}
+
+
+.preface-news{
+	width: 100%;
+	max-width: 1600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 98px;
+}
+
+.news_title {
+	@include title;
+	color: $secondary-white;
+}
+
+
+
+.news-line {
+	width: 100px;
+	height: 0;
+	margin-bottom: 30px;
+	color: $secondary-white;
+}
+
+.news_columns{
+	margin-left: 215px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 370px);
+	grid-template-rows: 514px;
+	grid-template-areas: 
+	"brun freeman alice";
+	gap: 30px;
+}
+
+.brun{
+	background-color: $secondary-white;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+.freeman{
+	background-color: $secondary-white;
+}
+
+.alice{
+	background-color: $secondary-white;
+}
+
+h5 {
+	width: 100%;
+	font-family: $font-secondary;
+    font-weight: 700;
+    font-size: $fz-preface;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: $primary;
+	text-align: left;
+}
+
+.wrapper_news{
+	margin-top: 30px;
+	margin-left: 23px;
+	display: flex;
+	width: 330px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.brun_text {
+	display: flex;
+	width: 330px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+.columns_text_wrapper{
+	@include text
+}
+
+
+.brun_portfolio{
+	margin-top: 45px;
+	display: flex;
+	margin-left: 20px;
+	
+}
+
+.brun_data{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	gap: 8px;
+}
+
+.brun_photo{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.brun_date_name{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-primary;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+.brun_date_date{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-navigation;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $secondary-data;
+}
+// ghhhg
+.freeman_text {
+	display: flex;
+	width: 330px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+
+.freeman_portfolio{
+	margin-top: 45px;
+	display: flex;
+	margin-left: 20px;
+	
+}
+
+.freeman_data{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	gap: 8px;
+}
+
+.freeman_photo{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.freeman_date_name{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-primary;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+.freeman_date_date{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-navigation;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $secondary-data;
+}
+
+// GGHGH
+.alice_text {
+	display: flex;
+	width: 330px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+
+.alice_portfolio{
+	margin-top: 45px;
+	display: flex;
+	margin-left: 20px;
+	
+}
+
+.alice_data{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	gap: 8px;
+}
+
+.alice_photo{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.alice_date_name{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-primary;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+.alice_date_date{
+	font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $fz-navigation;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $secondary-data;
+}

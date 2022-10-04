@@ -1,0 +1,36 @@
+body {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 375px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	max-width: 1600px;
+	padding-top: 53px;
+	padding-left: 215px;
+	display: flex;
+	background-image: url(../images/Background.png);
+	// position: fixed;
+}
+
+
+
+
+.twitter-icon {
+	height: 18px;
+	width: 16px;
+}
+
+.facebook-icon{
+	height: 18px;
+	width: 16px;
+}
+
+.insta-icon{
+	height: 18px;
+	width: 16px;
+}
+

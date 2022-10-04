@@ -1,0 +1,55 @@
+.trade{
+	display: flex;
+
+}
+
+.trade-images {
+	display: flex;
+	margin-left: 5px;
+	margin-top: 95px;
+}
+
+.trade-first-image {
+	width: 585px;
+	height: 470px;
+	object-fit: contain;
+	z-index: 1;
+}
+
+.trade-second-image{
+	width: 630px;
+	height: 955px;
+	object-fit: contain;
+	transform: translate(-373px, -185px);
+	z-index: 2;
+}
+
+.btn-trade-click{
+	@include btn
+}
+
+.trade-text{
+	margin-top: 247px;
+	margin-left: -305px;
+}
+
+h3{
+	text-align: left;
+	@include preface
+	
+}
+
+.trade-paragraph{
+	margin-top: 28px;
+	margin-bottom: 40px;
+	width: 470px;
+	height: 81px;
+	@include text
+}
+
+.location{
+	display: flex;
+	gap: 5px;
+	margin-top: 59px;
+	@include copyright
+}
